@@ -133,11 +133,13 @@ textarea{
 @media(max-width:1028px){
 	.contact{
 		flex-direction: column;
+		font-size: 13px;
 	}
 	.content h2{
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
+		font-size: 18px;
 	}
 	.container{
 		display: flex;
@@ -148,5 +150,63 @@ textarea{
 		width: 100%;
 		padding: 40px;
 		background: f6f6f6;
+		font-size: 12px;
 	}
+}
+
+@media(max-width:712px){
+	.content{
+		flex-direction: column;
+	}
+	.contact .content h2{
+		font-size: 15px;
+	}
+	.contact .content p{
+		font-size: 10px;
+	}
+	.container .contactInfo{
+		width: 100%;
+	}
+	.container .contactInfo .box{
+		padding: 12px 0;
+	}
+	.container .contactInfo .box .icon{
+		min-width: 30px;
+		height: 30px;
+		background: #f6f6f6;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		border-radius: 50%;
+	}
+	.container .contactInfo .box .icon i{
+		font-size: 12px;
+		margin: auto;
+	}
+	.container .contactInfo .text{
+		font-size: 10px;
+		margin: -0.69rem 0;
+	}
+	.container .contactInfo .text h3{
+		font-size: 12px;
+	}
+	.container .contactInfo .text p{
+		margin-left: 15px;
+		font-size: 10px;
+	}
+	.contactForm{
+		width: 55vw;
+		padding: 40px;
+		background: f6f6f6;
+		font-size: 12px;
+	}
+
+	.contactForm .inputBox .buttonSend{
+		padding: 10px;
+		font-size: 14px;
+	}
+	.contactForm h2{
+		font-size: 14px;
+	}
+
 }
